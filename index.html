@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <title>Welcome to Duet</title>
+
+  <!-- Basic Meta Tags -->
+  <meta name="description"
+    content="Something exciting is on the way! Duet helps founders turn their ideas into reality by quickly building high-quality apps and websites—no team, no hassle." />
+  <meta name="keywords"
+    content="Duet, freelance development, app development, website development, startup support, MVP, tech solutions, founders, portfolio" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Duet – Freelance App & Website Development Coming Soon" />
+  <meta property="og:description"
+    content="Something exciting is on the way! Duet helps founders turn their ideas into reality by quickly building high-quality apps and websites—no team, no hassle." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yourwebsite.com/" />
+  <meta property="og:image" content="https://www.yourwebsite.com/assets/duet-preview.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Duet – Freelance App & Website Development Coming Soon" />
+  <meta name="twitter:description"
+    content="Something exciting is on the way! Duet helps founders turn their ideas into reality by quickly building high-quality apps and websites—no team, no hassle." />
+  <meta name="twitter:image" content="https://www.yourwebsite.com/assets/duet-preview.jpg" />
+
+  <!-- Alpine.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.0/dist/cdn.min.js"></script>
+
+  <!-- Tailwindcss CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Google icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD@400,0,0" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    :root {
+      --font-display: "DM Sans", sans-serif;
+      --font-fancy: "DM Serif Display", serif;
+      --font-mono: "DM Mono", monospace;
+    }
+
+    .font-display {
+      font-family: var(--font-display);
+    }
+
+    .font-fancy {
+      font-family: var(--font-fancy);
+    }
+
+    .font-mono {
+      font-family: var(--font-mono);
+    }
+
+    .auto-fade {
+      animation: fade 0.5s ease-out forwards;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body
+  class="min-h-screen bg-gray-50 text-gray-800 font-display flex items-center justify-center bg-[url(./assets/duet.webp)] bg-cover bg-no-repeat">
+  <main class="grid gap-8 text-center max-w-2xl p-6">
+    <!-- Logo -->
+    <img src="assets/favicon.webp" alt="logo" width="150" height="150" class="mx-auto p-0 m-0 mix-blend-multiply" />
+
+    <!-- Intro -->
+    <div class="grid gap-4 px-4 sm:px-6 md:px-8 lg:px-12">
+      <span class="text-lg tracking-wide font-display">We are almost there</span>
+      <h1 class="text-6xl sm:text-8xl font-fancy italic auto-fade">
+        Coming soon
+      </h1>
+      <p class="text-lg text-gray-900 font-display">
+        Something exciting is on the way! Duet helps founders turn their ideas
+        into reality by quickly building high-quality apps and websites—no
+        team, no hassle.
+      </p>
+    </div>
+
+    <!-- Social icons -->
+    <footer class="flex justify-center gap-6 mt-12 text-gray-600">
+      <div class="grid gap-4 md:grid-cols-1">
+        <a href="https://www.linkedin.com/company/the-duet/"
+          class="w-full sm:w-auto px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition font-display mt-2 sm:mt-0 flex items-center justify-center gap-2">
+          <span class="material-symbols-outlined">open_in_new</span>
+          Go to Linkedin
+        </a>
+        <p class="text-sm text-gray-500 font-display">
+          <span>Stay in the loop by signing up</span>
+          <span>and we’ll notify you as soon as we launch.</span>
+        </p>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
